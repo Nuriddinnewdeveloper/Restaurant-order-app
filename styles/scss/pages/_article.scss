@@ -1,0 +1,40 @@
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    width: 10%;
+    height: 100vh;
+    
+    background-color:#1F1D2B;
+    padding: 30px;
+    &_top{
+        width: 56px;
+        height: 56px;
+        background-color:#4d4846;
+        border-radius:12px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        margin-bottom: 24px;
+        &_image{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    &_list{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        &_item{
+            border-radius: 8px;
+            padding: 16px;
+        }
+        &_item:hover{
+            background: var(--Primary-Color, #EA7C69);
+            box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.32);
+        }
+    }
+
+}

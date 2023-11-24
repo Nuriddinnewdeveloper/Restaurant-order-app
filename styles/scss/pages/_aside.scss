@@ -1,0 +1,187 @@
+.aside {
+    width: 30%;
+    background-color: #1f1d2b;
+    padding: 24px;
+
+    &_title {
+        color: var(--White, #fff);
+
+        /* Heading/H2 */
+        font-family: Barlow;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        /* 28px */
+        margin-bottom: 24px;
+    }
+
+    &_wrapper {
+        display: flex;
+        align-items: center;
+        width: 70%;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+
+    &_button {
+        padding: 7px 12px;
+        border-radius: 8px;
+        color: #ea7c69;
+        border: 1px solid var(--base-dark-line, #393c49);
+        background: var(--base-dark-bg-2, #1f1d2b);
+        transition: all 0.5s;
+    }
+
+    &_button:hover {
+        color: var(--White, #fff);
+        padding: 7px 12px;
+        /* Body / Normal - Semibold */
+        font-family: Barlow;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        border-radius: 8px;
+        background: #ea7c69;
+    }
+
+    &_middle1 {
+        width: 100%;
+        margin-bottom: 35px;
+
+        &_info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+
+            &_meal_wrapper {
+                display: flex;
+                gap: 5px;
+
+                &_text1 {
+                    color: var(--White, #FFF);
+
+                    /* Body / Normal - Medium */
+                    font-family: Barlow;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 130%;
+                    /* 18.2px */
+                }
+
+                &_text2 {
+                    color: var(--text-light, #ABBBC2);
+
+                    /* Body / Small - Medium */
+                    font-family: Barlow;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                    /* 16.8px */
+                }
+            }
+        }
+
+        &_soni {
+            border-radius: 8px;
+            border: 1px solid var(--base-dark-line, #393C49);
+            background: var(--base-form-bg, #2D303E);
+            display: flex;
+            width: 48px;
+            padding: 14px;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            text-emphasis-color: white;
+        }
+
+        &_price {
+            color: var(--White, #FFF);
+            text-align: right;
+
+            /* Body/Large - Medium */
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+            /* 22.4px */
+        }
+
+        &_input {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &_button {
+                border-radius: 8px;
+                border: 1px solid var(--base-dark-line, #393C49);
+                background: var(--base-form-bg, #2D303E);
+                display: flex;
+                width: 297px;
+                padding: 14px 80px 14px 14px;
+                align-items: flex-start;
+                gap: 8px;
+            }
+        }
+
+
+    }
+
+    &_discount_list {
+        width: 100%;
+        list-style: none;
+
+    }
+
+    &_discount_item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+
+        &_text1 {
+            color: var(--text-light, #ABBBC2);
+
+            /* Body / Normal - Regular  */
+            font-family: Barlow;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%;
+            /* 19.6px */
+        }
+
+        &_text2 {
+            color: var(--White, #FFF);
+            text-align: right;
+
+            /* Body/Large - Medium */
+            font-family: Barlow;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 140%;
+            /* 22.4px */
+        }
+    }
+
+    &_bottom_button {
+        border-radius: 8px;
+        background: var(--Primary-Color, #EA7C69);
+        box-shadow: 0px 8px 24px 0px rgba(234, 124, 105, 0.30);
+        display: flex;
+        width: 100%;
+        padding: 14px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        color: white;
+
+    }
+
+}
